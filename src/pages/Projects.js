@@ -23,7 +23,7 @@ const Projects = () => {
           <p class="projects__row-content-desc">
             This app is designed for users to share places with others.
           </p>
-          <a class="btn btn--med btn--theme dynamicBgClr" href="projects/project-1" target="_blank">Case Study</a>
+          <a class="btn btn--med btn--theme dynamicBgClr" href="projects/project-1" >Case Study</a>
         </div>
       </div>
       <br />
@@ -38,7 +38,7 @@ const Projects = () => {
           E-commerce website for users to purchase laptops with 8 Advanced filtering searching products.
 
           </p>
-          <a class="btn btn--med btn--theme dynamicBgClr" href="projects/project-2" target="_blank">Case Study</a>
+          <a class="btn btn--med btn--theme dynamicBgClr" href="projects/project-2" >Case Study</a>
         </div>
       </div>
       <div class="projects__row">
@@ -52,7 +52,7 @@ const Projects = () => {
 
 
           </p>
-          <a class="btn btn--med btn--theme dynamicBgClr" href="projects/project-3" target="_blank">Case Study</a>
+          <a class="btn btn--med btn--theme dynamicBgClr" href="projects/project-3" >Case Study</a>
         </div>
       </div>
     </div>

@@ -29,7 +29,7 @@ const Home = () => {
     <img src="https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" onclick="linkP1()"/>
  
   </div>
-  <Link to={"/projects/project-1"}>
+  <Link to={"/projects/project-2"}>
   <div class="content">
     <div>
       <h2>MERN STACK ECOMMERCE APP</h2>
@@ -44,7 +44,7 @@ const Home = () => {
   <div class="imgBx">
     <img src="https://images.unsplash.com/photo-1570143675316-51a19f90a943?q=80&w=2774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
   </div>
-  <Link to={"/projects/project-2"}>
+  <Link to={"/projects/project-1"}>
   <div class="content">
     <div>
       <h2>PLACE SHARING APP MERN STACK</h2>
