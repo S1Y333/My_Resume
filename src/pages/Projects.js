@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 
 
 const Projects = () => {
@@ -23,7 +24,9 @@ const Projects = () => {
           <p class="projects__row-content-desc">
             This app is designed for users to share places with others.
           </p>
-          <a class="btn btn--med btn--theme dynamicBgClr" href="projects/project-1" >Case Study</a>
+          <Link to={"/projects/project-1"}>
+          <button class="btn btn--med btn--theme dynamicBgClr" href="projects/project-1" >Case Study</button>
+          </Link>
         </div>
       </div>
       <br />
@@ -38,7 +41,9 @@ const Projects = () => {
           E-commerce website for users to purchase laptops with 8 Advanced filtering searching products.
 
           </p>
-          <a class="btn btn--med btn--theme dynamicBgClr" href="projects/project-2" >Case Study</a>
+          <Link to={"/projects/project-2"}>
+           <button class="btn btn--med btn--theme dynamicBgClr" href="projects/project-2" >Case Study</button>
+          </Link>
         </div>
       </div>
       <div class="projects__row">
@@ -52,7 +57,9 @@ const Projects = () => {
 
 
           </p>
-          <a class="btn btn--med btn--theme dynamicBgClr" href="projects/project-3" >Case Study</a>
+          <Link to={"/projects/project-3"}>
+          <button class="btn btn--med btn--theme dynamicBgClr" href="projects/project-3" >Case Study</button>
+          </Link>
         </div>
       </div>
     </div>
