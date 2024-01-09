@@ -13,7 +13,7 @@ import ProjectThree from "./pages/Projects/ProjectThree";
 
 function App() {
   return (
-    <BrowserRouter basename="/My_Webisite">
+    <BrowserRouter basename="/My_Website">
        <Header />
        
        <Switch>
