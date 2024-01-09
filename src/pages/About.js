@@ -35,7 +35,9 @@ const About = () => {
             matches my skills and experience then don't hesitate to <strong>contact</strong> me.
           </p>
         </div>
-        <a href="./contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
+        <Link to="/contact">
+          <button class="btn btn--med btn--theme dynamicBgClr">Contact</button>
+        </Link>
       </div>
       <div class="about__content-skills">
         <h3 class="about__content-title">My Skills</h3>
