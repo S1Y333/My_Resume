@@ -11,10 +11,10 @@ const Footer = () => {
             <span>Social</span>
           </h2>
           <div class="main-footer__social-cont">
-            <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/rammcodes">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sylviazhangca">
               <img class="main-footer__icon" src="https://res.cloudinary.com/dsaaaqnqj/image/upload/v1703013001/in_ico_mavspl.png" alt="Sylvia Linkedin Profile" />
             </a>
-            <a target="_blank" rel="noreferrer" href="https://github.com/rammcodes">
+            <a target="_blank" rel="noreferrer" href="https://github.com/s1y333">
               <img class="main-footer__icon" src="https://res.cloudinary.com/dsaaaqnqj/image/upload/v1703013817/25231_rvwaff.png" alt="Sylvia Github Profile" />
             </a>
             
