@@ -10,7 +10,7 @@ const Footer = () => {
           <h2 class="heading heading-sm main-footer__heading-sm">
             <span>Social</span>
           </h2>
-          <div class="main-footer__social-cont">
+          <div class="main-footer__social-cont">  
             <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sylviazhangca">
               <img class="main-footer__icon" src="https://res.cloudinary.com/dsaaaqnqj/image/upload/v1703013001/in_ico_mavspl.png" alt="Sylvia Linkedin Profile" />
             </a>
