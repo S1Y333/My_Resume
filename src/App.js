@@ -10,22 +10,23 @@ import Footer from './Components/Footer';
 import ProjectOne from "./pages/Projects/ProjectOne";
 import ProjectTwo from "./pages/Projects/ProjectTwo";
 import ProjectThree from "./pages/Projects/ProjectThree";
+import PartyEasy from "./pages/Projects/PartyEasy";
 
 function App() {
   return (
     <BrowserRouter basename="/My_Website">
-       <Header />
-       
-       <Switch>
-         <Route exact path="/"  component={Home} />
-         <Route exact path="/about"  component={About} />
-         <Route exact path="/projects"  component={Projects} />
-         <Route exact path="/projects/project-1"  component={ProjectOne} />
-         <Route exact path="/projects/project-2"  component={ProjectTwo} />
-         <Route exact path="/projects/project-3"  component={ProjectThree} />
-         <Route exact path="/contact"  component={Contact} />
-       </Switch>
-       
+      <Header />
+
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/projects/ecommerce" component={ProjectOne} />
+        <Route exact path="/projects/sharePlace" component={ProjectTwo} />
+        <Route exact path="/projects/partyEasy" component={PartyEasy} />
+        <Route exact path="/projects/project-3" component={ProjectThree} />
+        <Route exact path="/contact" component={Contact} />
+      </Switch>
     </BrowserRouter>
   );
 }

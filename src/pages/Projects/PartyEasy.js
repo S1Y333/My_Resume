@@ -1,19 +1,15 @@
-import React from 'react';
-
-const ProjectThree = () => {
-
-  const style = { marginTop: 150 };  
+const PartyEasy = () => {
+  const style = { marginTop: 150 };
 
   return (
     <div className="">
       <h2 class="heading heading-sec heading-sec__mb-bg">
         <span class="heading-sec__main" style={style}>
-          ANGULAR & JAVA ECOMMERCE APP
+          Party Easy App
         </span>
         <span class="heading-sec__sub">
-          This page contains the case study of ANGULAR & JAVA ECOMMERCE APP
-          which includes the Project Overview, Tools Used for the official
-          product.
+          This page contains the case study of Party Easy App which includes the
+          Project Overview, Tools Used and Github Links to the code.
         </span>
         <br />
         <div class="d-grid gap-2  justify-content-xl-center">
@@ -25,7 +21,7 @@ const ProjectThree = () => {
         <div class="">
           <div class="projects__row-img-cont">
             <img
-              src="https://res.cloudinary.com/dtq1qzwxn/image/upload/c_crop,g_auto,h_700,w_1100/qkgm8gjb3phjsqmykw6l.jpg"
+              src="https://res.cloudinary.com/dsaaaqnqj/image/upload/t_laptop1/v1703043820/Untitled_design-6_vzkyfc.png"
               alt="Software Screenshot"
               className="projects__row-img"
             />
@@ -36,31 +32,36 @@ const ProjectThree = () => {
                 Project Overview
               </h2>
               <p class="project-details__desc-para">
-                E-commerce website for customer to purchase products.
+                The app is designed to organize party easily but also include
+                almost everything for holding a party. Registered user can
+                submit a party request form with numbers of guests, location,
+                budget, food, drink preference and get customized recommendation
+                with venue booking link and food drink options
               </p>
               <p class="project-details__desc-para">
-                - Search by keywords <br />
-                - User authentication <br />
-                - Orders history <br />
-                - Stripe payment API <br />
+                The project used Google Map and Unsplash API, webscrapping real
+                data from website, and also added real-time chat functions.
               </p>
               <p class="project-details__desc-para">
                 Feel free to check out the Project
               </p>
-              <a href="https://github.com/S1Y333/Full-Stack-E-Commerce-Website">
+              <a href="https://github.com/S1Y333/partyEasy-backend">
                 <p class="project-details__desc-para">here</p>
               </a>
             </div>
             <div class="project-details__tools-used">
               <h2 class="project-details__content-title">Tools Used</h2>
               <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">JAVA</div>
-                <div class="skills__skill">Spring</div>
-                <div class="skills__skill">Github</div>
-                <div class="skills__skill">Spring Boot</div>
+                <div class="skills__skill">ReactJS</div>
+                <div class="skills__skill">SCSS</div>
+                <div class="skills__skill">ReactJS</div>
+                <div class="skills__skill">NodeJS</div>
+                <div class="skills__skill">TypeScript</div>
+                <div class="skills__skill">Socket.io</div>
                 <div class="skills__skill">MySQL</div>
+                <div class="skills__skill">TypeORM</div>
+                <div class="skills__skill">Firebase</div>
+                <div class="skills__skill">Puppeteer</div>
               </div>
             </div>
           </div>
@@ -68,6 +69,6 @@ const ProjectThree = () => {
       </div>
     </div>
   );
-}
+};
 
-export default ProjectThree;
+export default PartyEasy;
