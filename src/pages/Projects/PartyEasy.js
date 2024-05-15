@@ -21,7 +21,7 @@ const PartyEasy = () => {
         <div class="">
           <div class="projects__row-img-cont">
             <img
-              src="https://res.cloudinary.com/dsaaaqnqj/image/upload/t_laptop1/v1703043820/Untitled_design-6_vzkyfc.png"
+              src="https://res.cloudinary.com/dtq1qzwxn/image/upload/v1715810070/Untitled_design-11_tr4uv9.png"
               alt="Software Screenshot"
               className="projects__row-img"
             />
@@ -46,7 +46,7 @@ const PartyEasy = () => {
                 Feel free to check out the Project
               </p>
               <a href="https://github.com/S1Y333/partyEasy-backend">
-                <p class="project-details__desc-para">here</p>
+                <p class="project-details__desc-para link">here</p>
               </a>
             </div>
             <div class="project-details__tools-used">

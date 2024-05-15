@@ -47,7 +47,7 @@ const ProjectOne = () => {
                 Feel free to check out the Project
               </p>
               <a href="https://github.com/S1Y333/FavPlace_backend">
-                <p class="project-details__desc-para">here</p>
+                <p class="project-details__desc-para link">here</p>
               </a>
             </div>
             <div class="project-details__tools-used">
