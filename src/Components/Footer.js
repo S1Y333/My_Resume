@@ -2,6 +2,8 @@ import React from 'react';
 import './Footer.scss'
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     
       <div class="fixed-bottom footer">
@@ -45,8 +47,7 @@ const Footer = () => {
           </div>
 
           <div class="main-footer__lower text-dark">
-            © Copyright
-            <script>document.write(new Date().getFullYear())</script>2023. Made
+            © Copyright {currentYear} Made
             by Sylvia Zhang ❤️
           </div>
       </div>

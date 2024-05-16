@@ -1,7 +1,7 @@
 import  React, { useState } from 'react';
 
 import { Link } from 'react-router-dom';
-//import '../pages/Home.css';
+import './Header.scss';
 
 const Header = () => {
  
@@ -74,7 +74,7 @@ const Header = () => {
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="navbar-collapse collapse" id="navbarCollapse" >
-        <ul class="navbar-nav ms-auto ">
+        <ul class="navbar-nav ms-auto  ">
         <li class="nav-item active">
       <Link to="/" class="header__link"> Home </Link>
     </li>
