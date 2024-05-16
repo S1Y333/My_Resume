@@ -21,12 +21,13 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/projects" component={Projects} />
-        <Route exact path="/projects/ecommerce" component={ProjectOne} />
-        <Route exact path="/projects/sharePlace" component={ProjectTwo} />
+        <Route exact path="/projects/ecommerce" component={ProjectTwo} />
+        <Route exact path="/projects/sharePlace" component={ProjectOne} />
         <Route exact path="/projects/partyEasy" component={PartyEasy} />
         <Route exact path="/projects/project-3" component={ProjectThree} />
         <Route exact path="/contact" component={Contact} />
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }

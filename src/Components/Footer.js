@@ -1,11 +1,11 @@
 import React from 'react';
-import '../index.css'
+import './Footer.scss'
 
 const Footer = () => {
   return (
-    <div>
-      <footer class="fixed-bottom">
-        <div class="main-container ">
+    
+      <div class="fixed-bottom footer">
+        <div class="main-container footer__container ">
           <div class="main-footer__upper">
             <div class="main-footer__row main-footer__row-1">
               <h2 class="heading heading-sm main-footer__heading-sm">
@@ -49,9 +49,10 @@ const Footer = () => {
             <script>document.write(new Date().getFullYear())</script>2023. Made
             by Sylvia Zhang ❤️
           </div>
-        </div>
-      </footer>
-    </div>
+      </div>
+      </div>
+      
+  
   );
 
 }

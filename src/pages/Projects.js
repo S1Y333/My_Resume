@@ -55,7 +55,7 @@ const Projects = () => {
               <p class="projects__row-content-desc">
                 This app is designed for users to share places with others.
               </p>
-              <Link to={"/projects/project-1"}>
+              <Link to={"/projects/sharePlace"}>
                 <button
                   class="btn btn--med btn--theme dynamicBgClr"
                   href="projects/project-1"
@@ -83,7 +83,7 @@ const Projects = () => {
                 E-commerce website for users to purchase laptops with 8 Advanced
                 filtering searching products.
               </p>
-              <Link to={"/projects/project-2"}>
+              <Link to={"/projects/ecommerce"}>
                 <button
                   class="btn btn--med btn--theme dynamicBgClr"
                   href="projects/project-2"

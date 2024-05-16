@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Home.css";
+import "./Home.scss";
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -35,7 +35,7 @@ const Home = () => {
                 onclick="linkP1()"
               />
             </div>
-            <Link to={"/projects/project-2"}>
+            <Link to={"/projects/ecommerce"}>
               <div class="content">
                 <div>
                   <h2>MERN STACK ECOMMERCE APP</h2>
@@ -63,7 +63,7 @@ const Home = () => {
             <div class="imgBx">
               <img src="https://images.unsplash.com/photo-1570143675316-51a19f90a943?q=80&w=2774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
             </div>
-            <Link to={"/projects/project-1"}>
+            <Link to={"/projects/sharePlace"}>
               <div class="content">
                 <div>
                   <h2>PLACE SHARING APP MERN STACK</h2>

@@ -1,0 +1,24 @@
+
+.contact {
+
+   &__box {
+     width:100%;
+     max-width:150rem;
+   }
+
+    &__container {
+        height:40rem;
+    }
+
+    &__heading {
+        margin-bottom: 5rem;
+    }
+
+    &__input {
+        height:3.5rem;
+    } 
+
+      &__textarea {
+        height:10rem;
+    } 
+}
